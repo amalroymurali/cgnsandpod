@@ -1,0 +1,22 @@
+../MAT2CGNS/CGNS              									                         ! Path to solution files
+2                                                                                        ! 1 - CGNS soln in a single file; 2 - CGNS soln in multiples files
+/home/amurali/Desktop/Sergey/wolf_rom/ROM_code/code/                                     ! Origin folder
+SP7_test_tstep_
+POD_modes.cgns                                                                           ! Name of cgns file with POD modes
+rebuiltSol.cgns                                                                          ! Name of cgns file with reconstructed solution
+T                                                                                        ! Calculate correlation matrix (T/F)
+T                                                                                        ! Calculate SVD (T/F)
+0001 0008 1                                                                           	 ! From file; to file; skip - (Training data)
+0009 0010 1                                                                           	 ! From file; to file; skip - (Validation data)
+F                                                                                        ! Use primitive variables (T/F)
+51                                                                                     	 ! Number of points in j-th direction  
+1   100	                                                                                 ! Range of points in i-th direction
+10                                                                                       ! Derivative order: 2 - 2th order, 6 - 6th compact scheme, 10 - 10th compact scheme 
+
+*POD INPUTS*
+4                                                                                        ! Number of outputed modes
+0.0                                                                                      ! DEPRECATED Percentage of snapshots used in SPOD filter
+T                                                                                        ! DEPRECATED Periodicity: ON (T) / OFF (F)
+B                                                                                        ! DEPRECATED Filter type: Gaussian(G) or Boxcar(B)
+P                                                                                        ! DEPRECATED Norm: TKE(K), Pressure (P)
+0.05                                                                                     ! DEPRECATED Time step between snapshots (Remember the skip value in line 9)

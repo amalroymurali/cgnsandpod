@@ -1,0 +1,62 @@
+ input isMAT/SP7_test_all_tstep.mat     
+ Directory of Mat-file:
+ P                               
+ T                               
+ X                               
+ Y                               
+ Getting Header info from first array.
+ Retrieved P                               
+   With size                    10 -by-                 5100
+ Getting Header info from next array.
+ Retrieved T                               
+   With size                    10 -by-                    1
+ Getting Header info from next array.
+ Retrieved X                               
+   With size                   100 -by-                   51
+ Getting Header info from next array.
+ Retrieved Y                               
+   With size                   100 -by-                   51
+ Extracting P                                matrix
+  size:                51000
+ Classname double 
+  size:                51000
+  Sample   104059.68750000000        104359.68750000000        104329.28906250000        104322.43750000000        104364.11718750000        104262.67187500000        104266.36718750000        104380.38281250000        104274.05468750000        104385.96093750000     
+  Final shape of P          10        5100
+ Extracting T                                matrix
+  size:                   10
+ Classname double 
+  size:                   10
+  Sample   2.8738182038068771E-002   2.8839802369475365E-002   2.8942173346877098E-002   2.9044544324278831E-002   2.9146915301680565E-002   2.9249286279082298E-002   2.9354218393564224E-002   2.9456589370965958E-002   2.9558960348367691E-002   2.9661331325769424E-002
+  Final shape of T          10           1
+ Extracting X                                matrix
+  size:                 5100
+  Sample   1.6933333827182651E-003   1.6933333827182651E-003   1.6933333827182651E-003   1.6933333827182651E-003   1.6933333827182651E-003   1.6933333827182651E-003   1.6933333827182651E-003   1.6933333827182651E-003   1.6933333827182651E-003   1.6933333827182651E-003
+  final shape of X         100          51
+ Extracting Y                                matrix
+  size:                 5100
+  Sample   0.0000000000000000        1.6933333827182651E-003   3.3866667654365301E-003   5.0800000317394733E-003   6.7733335308730602E-003   8.4666665643453598E-003   1.0160000063478947E-002   1.1853333562612534E-002   1.3546667061746120E-002   1.5240000560879707E-002
+  Final shape of Y         100          51
+ Data reading successfull
+ 
+  Writing CGNS file ...
+ Number of snapshots:          10
+ Writing SP7_test_tstep_000001.cgns       
+ FlowSolution_1                  
+ Writing SP7_test_tstep_000002.cgns       
+ FlowSolution_2                  
+ Writing SP7_test_tstep_000003.cgns       
+ FlowSolution_3                  
+ Writing SP7_test_tstep_000004.cgns       
+ FlowSolution_4                  
+ Writing SP7_test_tstep_000005.cgns       
+ FlowSolution_5                  
+ Writing SP7_test_tstep_000006.cgns       
+ FlowSolution_6                  
+ Writing SP7_test_tstep_000007.cgns       
+ FlowSolution_7                  
+ Writing SP7_test_tstep_000008.cgns       
+ FlowSolution_8                  
+ Writing SP7_test_tstep_000009.cgns       
+ FlowSolution_9                  
+ Writing SP7_test_tstep_000010.cgns       
+ FlowSolution_10                 

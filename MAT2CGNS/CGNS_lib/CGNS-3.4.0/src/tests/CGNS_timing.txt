@@ -1,0 +1,23 @@
+cgioc 0.00
+elemtest 0.03
+ser_benchmark_hdf5 0.04
+test_exts 0.12
+test_goto 0.11
+test_multifam 0.01
+test_partial 0.03
+test_general_reshape 0.00
+test_general_rind 0.00
+test_ver31 0.04
+write_array 0.03
+write_links 0.24
+write_bcdata 0.04
+write_test 0.03
+write_zones 1.10
+write_rind 0.00
+cgiof_F03 0.00
+cgwrite_F03 0.01
+cgread_F03 0.00
+cgzconn_F03 0.01
+cgsubreg_F03 0.00
+test_general_rindf 0.00
+0.00
