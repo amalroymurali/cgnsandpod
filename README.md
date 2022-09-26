@@ -1,8 +1,9 @@
 # Seiber's POD method along with input data conversion to CGNS format.
+POD modules of this code is forked from the repo hugolui/ROM_code and a data converted from MAT2CGNS is appended.
 
-Compiled by:
+Author:
     Amal Roy Murali,
-    LMFA, Ecole Centrale Lyon,
+    LMFA, Ecole Centrale Lyon,   
     Lyon, France.
 
 This folder contains the code for reusing Seiber's POD as used in Wolf ROM model.
