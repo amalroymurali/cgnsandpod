@@ -1,5 +1,5 @@
-# Seiber's POD method along with input data conversion to CGNS format.
-POD modules of this code is forked from the repo hugolui/ROM_code and a data converter from MAT2CGNS is appended.
+# Seiber's SPOD method along with input data conversion to CGNS format.
+SPOD modules of this code is forked from the repo hugolui/ROM_code and a data converter from MAT2CGNS is appended.
 
 Author:
     Amal Roy Murali,
